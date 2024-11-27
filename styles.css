@@ -308,3 +308,78 @@ body {
 .wish-content button:hover {
   background: #03dac6;
 }
+
+/* Responsive Design for Mobile View */
+@media (max-width: 768px) {
+  /* Adjust hero section for mobile */
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+  }
+
+  .hero-left, .hero-right {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .hero-photo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .hero-right h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-right p {
+    font-size: 1rem;
+  }
+
+  /* Stack sections for smaller screens */
+  .section {
+    margin: 15px auto;
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  /* Cards: Full-width on mobile */
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .card {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+
+  /* Skills section adjustments */
+  .skill-list {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .skill-item {
+    width: 80%;
+    margin: 5px auto;
+    font-size: 1rem;
+  }
+
+  /* Contact cards */
+  .contact-details {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-card {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  /* Footer adjustments */
+  .footer {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+}
